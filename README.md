@@ -3,7 +3,8 @@ Investigating Raspberry Pi based LoRaWAN nodes, work in progress.
 
 Initiated by Michel of [Lug Limbe](https://sokolo.cronopios.org/) ([Map](https://www.openstreetmap.org/search?query=limbe%20linux#map=19/4.01908/9.17187)).
 
-# Wire the RN2483
+# RN2483
+## Wire the RN2483
 Based on https://pinout.xyz/pinout/uart
 
 Raspberry Pi|RN2483
@@ -17,31 +18,46 @@ CTS|RTS
 -|(NC)
 GND|GND
 
-# Install wiringpi
+## Install wiringpi
     $ pip3 install wiringpi
 
-# Enable UART
+## Enable UART
     $ sudo nano /boot/config.txt
     enable_uart=1
     $ sudo raspi-config # > Interface Options > Serial Port > ... login shell ... No > ... serial port ... Yes
     $ sudo reboot
 
-# Get keys from TTN
+## Get keys from TTN
 ...
 https://eu1.cloud.thethings.network/console/applications/pi-lora-app/devices/pi-lora-device-0
 
-# Download code
+## Download code
     $ wget https://raw.githubusercontent.com/tamberg/pi-lora/main/rn2483.py
     $ cat rn2483.py
 
-# Set keys in code
+## Set keys in code
     $ nano rn2483.py
     TTN_DEV_ADDR = "00000000" # TODO
     TTN_NWK_S_KEY = "00000000000000000000000000000000" # TODO
     TTN_APP_S_KEY = "00000000000000000000000000000000" # TODO
 
-# Run code
+## Run code
     $ python3 rn2483.py
+
+# Gateway
+## Enable SPI
+    $ sudo raspi-config # enable SPI
+
+## Setup ttn-gateway
+    $ git clone https://github.com/ttn-zh/ic880a-gateway.git ~/ic880a-gateway
+    $ cd ~/ic880a-gateway
+    $ sudo ./install.sh spi
+
+## Show config
+    $ cat /opt/ttn-gateway/global_conf.json
+
+## Show log
+    $ sudo journalctl -u ttn-gateway --since="1h ago"
 
 # Resources
 ## Raspberry Pi UART Pinout
