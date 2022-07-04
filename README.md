@@ -17,6 +17,9 @@ CTS|RTS
 -|(NC)
 GND|GND
 
+# Install wiringpi
+    $ pip3 install wiringpi
+
 # Enable UART
     $ sudo nano /boot/config.txt
     enable_uart=1
@@ -27,12 +30,18 @@ GND|GND
 ...
 https://eu1.cloud.thethings.network/console/applications/pi-lora-app/devices/pi-lora-device-0
 
-# Add keys to code
+# Download code
+    $ wget https://raw.githubusercontent.com/tamberg/pi-lora/main/rn2483.py
+    $ cat rn2483.py
+
+# Set keys in code
     $ nano rn2483.py
     TTN_DEV_ADDR = "00000000" # TODO
     TTN_NWK_S_KEY = "00000000000000000000000000000000" # TODO
     TTN_APP_S_KEY = "00000000000000000000000000000000" # TODO
 
+# Run code
+    $ python3 rn2483.py
 
 # Resources
 ## Raspberry Pi UART Pinout
