@@ -50,3 +50,5 @@ https://eu1.cloud.thethings.network/console/applications/pi-lora-app/devices/pi-
 - https://github.com/rac2030/MakeZurich/wiki/Using-the-Microchip-RN2483-via-Serial-to-USB#wiring (Wiring)
 - https://github.com/rac2030/MakeZurich/wiki/Using-the-Microchip-RN2483-via-Serial-to-USB#python (Code)
 - https://pinboard.in/search/u:tamberg?query=rn2483 (more)
+## Gateway
+- https://github.com/ttn-zh/ic880a-gateway/tree/spi
