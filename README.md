@@ -28,8 +28,12 @@ GND|GND
     $ sudo reboot
 
 ## Get keys from TTN
-...
-https://eu1.cloud.thethings.network/console/applications/pi-lora-app/devices/pi-lora-device-0
+- https://www.thethingsnetwork.org/
+- https://eu1.cloud.thethings.network/console/
+- Create App
+- Add Device
+- Use ABP
+- Get Keys
 
 ## Download code
     $ wget https://raw.githubusercontent.com/tamberg/pi-lora/main/rn2483.py
