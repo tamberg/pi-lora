@@ -60,6 +60,8 @@ https://eu1.cloud.thethings.network/console/applications/pi-lora-app/devices/pi-
     $ sudo journalctl -u ttn-gateway --since="1h ago"
 
 # Resources
+## LoRaWAN Basics
+- http://www.tamberg.org/fhnw/2021/hs/IoT08LoRaWANConnectivity.pdf
 ## Raspberry Pi UART Pinout
 - https://pinout.xyz/pinout/uart
 ## RN2483
