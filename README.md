@@ -52,3 +52,6 @@ https://eu1.cloud.thethings.network/console/applications/pi-lora-app/devices/pi-
 - https://pinboard.in/search/u:tamberg?query=rn2483 (more)
 ## Gateway
 - https://github.com/ttn-zh/ic880a-gateway/tree/spi
+## Frequencies
+- https://www.thethingsnetwork.org/docs/lorawan/frequencies-by-country/
+- https://www.thethingsnetwork.org/docs/lorawan/regional-parameters/
