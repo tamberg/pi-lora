@@ -3,6 +3,37 @@ Investigating Raspberry Pi based LoRaWAN nodes, work in progress.
 
 Initiated by Michel of [Lug Limbe](https://sokolo.cronopios.org/) ([Map](https://www.openstreetmap.org/search?query=limbe%20linux#map=19/4.01908/9.17187)).
 
+# Wire the RN2483
+Based on https://pinout.xyz/pinout/uart
+
+Raspberry Pi|RN2483
+:---|:---
+RX|TX
+TX|RX
+RTS|CTS
+CTS|RTS
+-|(RST)
+3V3|3V3
+-|(NC)
+GND|GND
+
+# Enable UART
+    $ sudo nano /boot/config.txt
+    enable_uart=1
+    $ sudo raspi-config # > Interface Options > Serial Port > ... login shell ... No > ... serial port ... Yes
+    $ sudo reboot
+
+# Get keys from TTN
+...
+https://eu1.cloud.thethings.network/console/applications/pi-lora-app/devices/pi-lora-device-0
+
+# Add keys to code
+    $ nano rn2483.py
+    TTN_DEV_ADDR = "00000000" # TODO
+    TTN_NWK_S_KEY = "00000000000000000000000000000000" # TODO
+    TTN_APP_S_KEY = "00000000000000000000000000000000" # TODO
+
+
 # Resources
 ## Raspberry Pi UART Pinout
 - https://pinout.xyz/pinout/uart
