@@ -49,7 +49,7 @@ GND|GND
 ## Run code
     $ python3 rn2483.py
 
-# CLI MQTT client
+# Command line TTN MQTT client
 ## Install mqtt
     $ sudo npm install mqtt -g # adds tool to path
 ## Subscribe to data from TTN backend with CLI
@@ -57,7 +57,7 @@ GND|GND
     -h "eu1.cloud.thethings.network" -u "<AppID>@ttn"\
     -P "<ApiKey>" # see TTN console
 
-# Python MQTT client
+# Python TTN MQTT client
 ## Install libraries
     $ pip3 install paho-mqtt
     $ pip3 install base64
