@@ -33,6 +33,7 @@ GND|GND
 - Create App
 - Add Device
 - Use ABP
+- Allow reset frame counter
 - Get Keys
 
 ## Download code
@@ -45,6 +46,13 @@ GND|GND
     TTN_NWK_S_KEY = "00000000000000000000000000000000" # TODO
     TTN_APP_S_KEY = "00000000000000000000000000000000" # TODO
 
+# MQTT client
+## Install mqtt
+## Get data from TTN backend
+    mqtt sub -t "v3/<AppID>@ttn/devices/<DevID>/up"\
+ -h "eu1.cloud.thethings.network" -u "<AppID>@ttn"\
+ -P "<ApiKey>" # see TTN console
+    
 ## Run code
     $ python3 rn2483.py
 
