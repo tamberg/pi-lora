@@ -51,8 +51,8 @@ GND|GND
     $ sudo npm install mqtt -g # adds tool to path
 ## Get data from TTN backend
     $ mqtt sub -t "v3/<AppID>@ttn/devices/<DevID>/up"\
- -h "eu1.cloud.thethings.network" -u "<AppID>@ttn"\
- -P "<ApiKey>" # see TTN console
+    -h "eu1.cloud.thethings.network" -u "<AppID>@ttn"\
+    -P "<ApiKey>" # see TTN console
     
 ## Run code
     $ python3 rn2483.py
