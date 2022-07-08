@@ -18,7 +18,7 @@ CTS|RTS
 -|(NC)
 GND|GND
 
-## Install wiringpi
+## Install libraries
     $ pip3 install wiringpi
 
 ## Enable UART
@@ -49,15 +49,25 @@ GND|GND
 ## Run code
     $ python3 rn2483.py
 
-# MQTT client
+# CLI MQTT client
 ## Install mqtt
     $ sudo npm install mqtt -g # adds tool to path
 ## Subscribe to data from TTN backend with CLI
     $ mqtt sub -t "v3/<AppID>@ttn/devices/<DevID>/up"\
     -h "eu1.cloud.thethings.network" -u "<AppID>@ttn"\
     -P "<ApiKey>" # see TTN console
-## Subscribe to data from TTN with Python
-...
+
+# Python MQTT client
+## Install libraries
+    $ pip3 install paho-mqtt
+    $ pip3 install base64
+
+## Download code
+    $ wget https://raw.githubusercontent.com/tamberg/pi-lora/main/ttn-client.py
+    $ cat ttn-client.py
+
+## Run code
+    $ python3 ttn-client
 
 # Gateway
 ## Enable SPI
