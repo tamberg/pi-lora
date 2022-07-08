@@ -12,7 +12,7 @@ def on_message(client, userdata, msg):
     uplink_message = json_payload['uplink_message']
     frm_payload = uplink_message['frm_payload']
     lora_payload = base64.b64decode(frm_payload)
-    print(lora_payload.decode())
+    print(lora_payload) # .decode() for strings, TODO for int
 
 client = mqtt.Client()
 client.on_connect = on_connect
