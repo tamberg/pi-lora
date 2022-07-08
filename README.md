@@ -46,16 +46,18 @@ GND|GND
     TTN_NWK_S_KEY = "00000000000000000000000000000000" # TODO
     TTN_APP_S_KEY = "00000000000000000000000000000000" # TODO
 
+## Run code
+    $ python3 rn2483.py
+
 # MQTT client
 ## Install mqtt
     $ sudo npm install mqtt -g # adds tool to path
-## Get data from TTN backend
+## Subscribe to data from TTN backend with CLI
     $ mqtt sub -t "v3/<AppID>@ttn/devices/<DevID>/up"\
     -h "eu1.cloud.thethings.network" -u "<AppID>@ttn"\
     -P "<ApiKey>" # see TTN console
-    
-## Run code
-    $ python3 rn2483.py
+## Subscribe to data from TTN with Python
+...
 
 # Gateway
 ## Enable SPI
