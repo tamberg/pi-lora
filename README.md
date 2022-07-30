@@ -25,8 +25,8 @@ GND|GND
     $ sudo nano /boot/config.txt
     enable_uart=1
     $ sudo raspi-config # > Interface Options > Serial Port > 
-        Login shell should be off: No > 
-        Serial port should be on: Yes
+        Login shell ...: No > 
+        Serial port ...: Yes
     $ sudo reboot
 
 ## Get keys from TTN
