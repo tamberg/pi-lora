@@ -74,6 +74,8 @@ GND|GND
     $ python3 ttn-client
 
 # Gateway
+> Note: This section is for LoRaWAN gateways only
+
 ## Enable SPI
     $ sudo raspi-config # enable SPI
 
