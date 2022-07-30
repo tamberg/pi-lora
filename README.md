@@ -24,7 +24,9 @@ GND|GND
 ## Enable UART
     $ sudo nano /boot/config.txt
     enable_uart=1
-    $ sudo raspi-config # > Interface Options > Serial Port > ... login shell ... No > ... serial port ... Yes
+    $ sudo raspi-config # > Interface Options > Serial Port > 
+        Login shell should be off: No > 
+        Serial port should be on: Yes
     $ sudo reboot
 
 ## Get keys from TTN
