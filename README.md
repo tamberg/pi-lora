@@ -64,7 +64,7 @@ GND|GND
 # Python TTN MQTT client
 ## Install libraries
     $ pip3 install paho-mqtt
-    $ pip3 install base64
+    $ pip3 install pi-base64
 
 ## Download code
     $ wget https://raw.githubusercontent.com/tamberg/pi-lora/main/ttn-client.py
