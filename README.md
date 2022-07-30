@@ -52,6 +52,8 @@ GND|GND
     $ python3 rn2483.py
 
 # Command line TTN MQTT client
+## Install npm
+    $ sudo apt-get install npm
 ## Install mqtt
     $ sudo npm install mqtt -g # adds tool to path
 ## Subscribe to data from TTN backend with CLI
