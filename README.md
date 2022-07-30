@@ -7,6 +7,8 @@ Initiated by Michel of [Lug Limbe](https://sokolo.cronopios.org/) ([Map](https:/
 ## Wire the RN2483
 Based on https://pinout.xyz/pinout/uart
 
+<img src="rn2483-wiring.png" />
+
 Raspberry Pi|RN2483
 :---|:---
 RX|TX
