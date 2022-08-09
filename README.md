@@ -40,7 +40,11 @@ GND|GND
 - https://eu1.cloud.thethings.network/console/
 - Create App
 - Add Device
-- Use ABP
+- Try manual device registration
+- Frequency plan: Europe (recommended)
+- LoRaWAN Version: 1.0.3
+- Show advanced activation
+- Activation by personalisation (ABP)
 - Allow reset frame counter
 - Get Keys
 
