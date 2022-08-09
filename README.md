@@ -45,6 +45,11 @@ GND|GND
 - LoRaWAN Version: 1.0.3
 - Show advanced activation
 - Activation by personalisation (ABP)
+- Device Address: click icon to generate
+- AppSKey: click icon to generate
+- NwkSKey: click icon to generate
+- End device ID: pi-lora-device-0
+- Register end device
 - Allow reset frame counter
 - Get Keys
 
