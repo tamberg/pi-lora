@@ -126,8 +126,9 @@ GND|GND
 ## LoRaWAN with TTN
 - http://www.tamberg.org/fhnw/2021/hs/IoT08LoRaWANConnectivity.pdf
 - http://www.tamberg.org/fhnw/2021/hs/IoT09Dashboards.pdf
-## Raspberry Pi UART Pinout
+## Raspberry Pi UART
 - https://pinout.xyz/pinout/uart
+- https://github.com/raspberrypi/documentation/blob/develop/documentation/asciidoc/computers/configuration/uart.adoc
 ## RN2483
 - https://github.com/rac2030/MakeZurich/wiki/Using-the-Microchip-RN2483-via-Serial-to-USB#wiring (Wiring)
 - https://github.com/rac2030/MakeZurich/wiki/Using-the-Microchip-RN2483-via-Serial-to-USB#python (Code)
