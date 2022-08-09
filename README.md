@@ -38,8 +38,13 @@ GND|GND
 ## Get keys from TTN
 - https://www.thethingsnetwork.org/
 - https://eu1.cloud.thethings.network/console/
+
+### Create an application
 - Create App
-- Add Device
+
+### Register a device
+- End devices
+- Add end device
 - Try manual device registration
 - Frequency plan: Europe (recommended)
 - LoRaWAN Version: 1.0.3
@@ -50,8 +55,20 @@ GND|GND
 - NwkSKey: click icon to generate
 - End device ID: pi-lora-device-0
 - Register end device
-- Allow reset frame counter
-- Get Keys
+
+### Allow frame counter reset
+- General settings
+- Network layer > Expand
+- Advanced MAC settings
+- Reset frame counter [x]
+- Save changes
+
+### Get ABP keys
+- Overview
+- Device Address
+- AppSKey: click icon to show key
+- NwkSKey: click icon to show key
+
 
 ## Download code
     $ wget https://raw.githubusercontent.com/tamberg/pi-lora/main/rn2483.py
