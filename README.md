@@ -20,6 +20,10 @@ CTS|RTS
 -|(NC)
 GND|GND
 
+## Install pip3
+    $ sudo apt-get update
+    $ sudo apt-get install python3-pip
+
 ## Install libraries
     $ pip3 install wiringpi
 
