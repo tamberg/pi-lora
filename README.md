@@ -10,7 +10,7 @@ One or more Pi LoRa devices send data to a LoRa gateway, using LoRa long range r
 
 The LoRa gateway forwards received data packets to The Things Network (TTN), a LoRa cloud backend.
 
-Any authorised, Internet-connected client computer, e.g. a Pi or laptop, can get the data from the backend.
+Any Internet-connected client computer, e.g. a Pi or laptop, can get the data from the backend, if authorised.
 
 # Pi with RN2483
 We use a Pi with a RN2483 LoRa module as our LoRaWAN device.
