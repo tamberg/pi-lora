@@ -12,7 +12,7 @@ We use a Pi with a RN2483 LoRa modem as our LoRaWAN device.
 ## Wire the RN2483
 Based on https://pinout.xyz/pinout/uart
 
-<img src="rn2483-wiring.png" width="540" />
+<img src="rn2483-wiring.png" width="640" />
 
 Raspberry Pi|RN2483
 :---|:---
