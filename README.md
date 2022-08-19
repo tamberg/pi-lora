@@ -7,7 +7,7 @@ Initiated by Michel of [Lug Limbe](https://sokolo.cronopios.org/) ([Map](https:/
 <img src="overview.png" width="640" />
 
 # Pi with RN2483
-We use a Pi with a RN2483 LoRa modem as our LoRaWAN device.
+We use a Pi with a RN2483 LoRa module as our LoRaWAN device.
 
 ## Wire the RN2483
 Based on https://pinout.xyz/pinout/uart
