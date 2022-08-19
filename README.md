@@ -126,6 +126,12 @@ This Python program can run on a Pi or any other computer.
     $ wget https://raw.githubusercontent.com/tamberg/pi-lora/main/ttn-client.py
     $ cat ttn-client.py
 
+## Set keys in code
+    $ nano ttn-client.py
+    TTN_APP_ID = "..." # TODO, e.g. pi-lora-app
+    TTN_DEVICE_ID = "..." # TODO, e.g. pi-lora-device
+    TTN_APP_API_KEY = "..." # TODO, see TTN console API Keys
+
 ## Run code
     $ python3 ttn-client
 
