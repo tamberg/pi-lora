@@ -4,13 +4,13 @@ Investigating Raspberry Pi based LoRaWAN nodes, work in progress.
 Initiated by Michel of [Lug Limbe](https://sokolo.cronopios.org/) ([Map](https://www.openstreetmap.org/search?query=limbe%20linux#map=19/4.01908/9.17187)).
 
 ## Overview
+<img src="overview.png" width="640" />
+
 One or more Pi LoRa devices send data to a LoRa gateway, using LoRa long range radio.
 
 The LoRa gateway forwards received data packets to the TTN server, a LoRa cloud backend.
 
-Any client computer with Internet, e.g. a Pi or laptop, can get the data from the backend.
-
-<img src="overview.png" width="640" />
+Any Internet-connected client computer, e.g. a Pi or laptop, can get the data from the backend.
 
 # Pi with RN2483
 We use a Pi with a RN2483 LoRa module as our LoRaWAN device.
