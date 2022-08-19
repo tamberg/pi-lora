@@ -3,6 +3,9 @@ Investigating Raspberry Pi based LoRaWAN nodes, work in progress.
 
 Initiated by Michel of [Lug Limbe](https://sokolo.cronopios.org/) ([Map](https://www.openstreetmap.org/search?query=limbe%20linux#map=19/4.01908/9.17187)).
 
+## Overview
+<img src="overview.png" width="540" />
+
 # Pi with RN2483
 We use a Pi with a RN2483 LoRa modem as our LoRaWAN device.
 
