@@ -6,7 +6,7 @@ Initiated by Michel of [Lug Limbe](https://sokolo.cronopios.org/) ([Map](https:/
 ## Overview
 <img src="overview.png" width="640" />
 
-One or more Pi LoRa devices send data to a LoRa gateway, using LoRa long range radio.
+One or more Pi LoRa devices send small data packets to a LoRa gateway, using LoRa long range radio.
 
 The LoRa gateway forwards received data packets to The Things Network (TTN), a LoRa cloud backend.
 
