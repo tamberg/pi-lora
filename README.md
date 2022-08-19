@@ -3,7 +3,9 @@ Investigating Raspberry Pi based LoRaWAN nodes, work in progress.
 
 Initiated by Michel of [Lug Limbe](https://sokolo.cronopios.org/) ([Map](https://www.openstreetmap.org/search?query=limbe%20linux#map=19/4.01908/9.17187)).
 
-# RN2483
+# Pi with RN2483
+We use a Pi with a RN2483 LoRa modem as our LoRaWAN device.
+
 ## Wire the RN2483
 Based on https://pinout.xyz/pinout/uart
 
@@ -93,6 +95,8 @@ A separate device is needed for each physical LoRaWAN device you want to connect
     $ python3 rn2483.py
 
 # Command line TTN MQTT client
+This command line program can run on a Pi or any other computer.
+
 ## Install npm
     $ sudo apt-get install npm
 ## Install mqtt
@@ -103,6 +107,8 @@ A separate device is needed for each physical LoRaWAN device you want to connect
     -P "<ApiKey>" # see TTN console
 
 # Python TTN MQTT client
+This Python program can run on a Pi or any other computer.
+
 ## Install libraries
     $ pip3 install paho-mqtt
     $ pip3 install pybase64
