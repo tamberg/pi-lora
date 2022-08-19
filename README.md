@@ -141,6 +141,8 @@ This Python program can run on a Pi or any other computer.
 ## LoRaWAN with TTN
 - http://www.tamberg.org/fhnw/2021/hs/IoT08LoRaWANConnectivity.pdf
 - http://www.tamberg.org/fhnw/2021/hs/IoT09Dashboards.pdf
+## Raspberry Pi Zero W Setup
+- https://github.com/tamberg/fhnw-iot/wiki/Raspberry-Pi-Zero-W
 ## Raspberry Pi UART
 - https://pinout.xyz/pinout/uart
 - https://github.com/raspberrypi/documentation/blob/develop/documentation/asciidoc/computers/configuration/uart.adoc
