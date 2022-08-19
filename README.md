@@ -35,14 +35,23 @@ GND|GND
         Serial port ...: Yes
     $ sudo reboot
 
-## Get keys from TTN
+## Configure the TTN backend
+This section shows the steps to configure the TheThingsNetwork (TTN) backend.
+
+### Register as a TTN user (once)
 - https://www.thethingsnetwork.org/
+
+### Open the TTN console
 - https://eu1.cloud.thethings.network/console/
 
 ### Create an application
+An application is needed per type of LoRaWAN device you want to connect, e.g. temperature sensor devices.
+
 - Create App
 
 ### Register a device
+A separate device is needed for each physical LoRaWAN device you want to connect, e.g. sensor-1 and sensor-2.
+
 - End devices
 - Add end device
 - Try manual device registration
