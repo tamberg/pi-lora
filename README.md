@@ -162,9 +162,8 @@ This Python program can run on a Pi or any other computer.
 - https://pinout.xyz/pinout/uart
 - https://github.com/raspberrypi/documentation/blob/develop/documentation/asciidoc/computers/configuration/uart.adoc
 ## RN2483
-- https://github.com/rac2030/MakeZurich/wiki/Using-the-Microchip-RN2483-via-Serial-to-USB#wiring (Wiring)
-- https://github.com/rac2030/MakeZurich/wiki/Using-the-Microchip-RN2483-via-Serial-to-USB#python (Code)
-- https://pinboard.in/search/u:tamberg?query=rn2483 (more)
+- https://github.com/rac2030/MakeZurich/wiki/Using-the-Microchip-RN2483-via-Serial-to-USB
+- https://ww1.microchip.com/downloads/en/DeviceDoc/RN2483-Data-Sheet-DS50002346E.pdf
 ## Gateway
 - https://github.com/ttn-zh/ic880a-gateway/tree/spi
 ## Frequencies
