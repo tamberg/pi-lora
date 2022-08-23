@@ -85,17 +85,16 @@ A separate device is needed for each physical LoRaWAN device you want to connect
 
 ### Get ABP keys
 - Overview
-- Device Address
-- AppSKey: click icon to show key
-- NwkSKey: click icon to show key
-
+- Device Address (This is your TTN_DEV_ADDR, required below)
+- AppSKey: click icon to show key (This is your TTN_NWK_S_KEY)
+- NwkSKey: click icon to show key (This is your TTN_APP_S_KEY)
 
 ## Download code
     $ wget https://raw.githubusercontent.com/tamberg/pi-lora/main/rn2483.py
     $ cat rn2483.py
 
 ## Set keys in code
-See TTN console.
+[Get ABP keys](#get-abp-keys) from TTN console.
 
     $ nano rn2483.py
     TTN_DEV_ADDR = "00000000" # TODO
