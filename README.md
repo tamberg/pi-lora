@@ -95,6 +95,8 @@ A separate device is needed for each physical LoRaWAN device you want to connect
     $ cat rn2483.py
 
 ## Set keys in code
+See TTN console.
+
     $ nano rn2483.py
     TTN_DEV_ADDR = "00000000" # TODO
     TTN_NWK_S_KEY = "00000000000000000000000000000000" # TODO
@@ -127,6 +129,8 @@ This Python program can run on a Pi or any other computer.
     $ cat ttn-client.py
 
 ## Set keys in code
+See TTN console.
+
     $ nano ttn-client.py
     TTN_APP_ID = "..." # TODO, e.g. pi-lora-app
     TTN_DEVICE_ID = "..." # TODO, e.g. pi-lora-device
