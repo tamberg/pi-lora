@@ -132,6 +132,12 @@ $ sudo systemctl enable rn2483.service
 $ sudo systemctl start rn2483.service
 ```
 
+### Check service
+```
+$ ps aux | grep rn2483.py
+pi         295  0.4  1.5  14372  6848 ?        Ss   09:07   0:04 /usr/bin/python3 rn2483.py
+```
+
 ### Stop service (optional)
 ```
 $ sudo systemctl stop rn2483.service
