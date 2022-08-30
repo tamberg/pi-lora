@@ -104,7 +104,9 @@ A separate device is needed for each physical LoRaWAN device you want to connect
 ## Run code
     $ python3 rn2483.py
 
-## Set up service
+## Install service
+Install a service to run rn2483.py whenever the Pi is plugged in.
+
 ```
 $ sudo nano /lib/systemd/system/rn2483.service 
 ```
@@ -121,6 +123,12 @@ Restart=on-failure
 
 [Install]
 WantedBy=multi-user.target
+```
+### Start service
+```
+$ sudo systemctl daemon-reload
+$ sudo systemctl enable rn2483.service
+$ sudo systemctl start rn2483.service
 ```
 
 # Command line TTN MQTT client
