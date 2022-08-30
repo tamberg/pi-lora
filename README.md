@@ -104,6 +104,38 @@ A separate device is needed for each physical LoRaWAN device you want to connect
 ## Run code
     $ python3 rn2483.py
 
+The output should look something like this
+```
+sys get ver
+RN2483 1.0.1 Dec 15 2015 09:38:09
+sys get hweui
+0000000000000000
+mac reset 868
+ok
+mac set nwkskey 00000000000000000000000000000000
+ok
+mac set appskey 00000000000000000000000000000000
+ok
+mac set devaddr 00000000
+ok
+mac set adr off
+ok
+mac set ar off
+ok
+mac set pwridx 1
+ok
+mac set dr 5
+ok
+mac save
+ok
+mac join abp
+ok
+accepted
+mac tx uncnf 1 000000000000000000000000000000000000
+ok
+mac_tx_ok
+```
+
 ## Install service
 Install a service to run _rn2483.py_ whenever the Pi is plugged in.
 
