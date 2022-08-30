@@ -138,6 +138,25 @@ See TTN console.
 ## Run code
     $ python3 ttn-client
 
+## Set up service
+```
+$ sudo nano /lib/systemd/system/rn2483.service 
+```
+
+```
+[Unit]
+Description=RN2483 Pi LoRa service
+
+[Service]
+User=pi
+WorkingDirectory=/home/pi
+ExecStart=/usr/bin/python3 rn2483.py
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
+```
+
 # Gateway
 > Note: This section is for LoRaWAN gateways only
 
