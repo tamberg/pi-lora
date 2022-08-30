@@ -115,6 +115,8 @@ $ sudo nano /lib/systemd/system/rn2483.service
 ```
 [Unit]
 Description=RN2483 Pi LoRa service
+Requires=dev-serial0.device
+After=dev-serial0.device
 
 [Service]
 User=pi
