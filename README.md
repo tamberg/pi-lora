@@ -6,7 +6,7 @@ Initiated by Michel of [Lug Limbe](https://sokolo.cronopios.org/) ([Map](https:/
 ## Overview
 <img src="overview.png" width="640" />
 
-One or more [Pi LoRa devices](#pi-lora-device-with-rn2483) send data packets to a [LoRa gateway](#lora-gateway), using LoRa long range radio.
+One or more [Pi LoRa devices](#pi-lora-device-with-rn2483) send data packets to a [LoRa gateway](#pi-lora-gateway), using LoRa long range radio.
 
 The LoRa gateway forwards received data packets to The Things Network (TTN), a LoRa cloud backend.
 
@@ -183,7 +183,7 @@ $ sudo rm /etc/systemd/system/multi-user.target.wants/rn2483.service
 $ sudo rm /lib/systemd/system/rn2483.service
 ```
 
-# Python TTN MQTT client
+# Python TTN client
 This Python program can run on a Pi or any other computer.
 
 ## Install libraries
