@@ -214,7 +214,12 @@ Then plug in the Pi LoRa gateway and put the antenna in an upright position.
 
 Make sure to chose an elevated location to reach maximum range.
 
-> Note: The remaining part is for setup from scratch.
+Done! (The remaining steps are for setup from scratch.)
+
+## Get ic880a hardware
+* https://shop.imst.de/wireless-modules/lora-products/8/ic880a-spi-lorawan-concentrator-868-mhz
+* https://shop.imst.de/wireless-modules/accessories/20/u.fl-to-sma-pigtail-cable-for-ic880a-spi (Cable)
+* https://shop.imst.de/wireless-modules/accessories/19/sma-antenna-for-ic880a-spi-wsa01-im880b-and-lite-gateway (Antenna)
 
 ## Enable SPI
     $ sudo raspi-config # enable SPI
