@@ -221,6 +221,9 @@ Done! (The remaining steps are for setup from scratch.)
 * https://shop.imst.de/wireless-modules/accessories/20/u.fl-to-sma-pigtail-cable-for-ic880a-spi (Cable)
 * https://shop.imst.de/wireless-modules/accessories/19/sma-antenna-for-ic880a-spi-wsa01-im880b-and-lite-gateway (Antenna)
 
+## Make an enclosure
+* E.g. https://www.thingiverse.com/thing:1665467
+
 ## Enable SPI
     $ sudo raspi-config # enable SPI
 
