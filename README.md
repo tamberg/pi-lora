@@ -8,7 +8,7 @@ Initiated by Michel of [Lug Limbe](https://sokolo.cronopios.org/) ([Map](https:/
 
 One or more [Pi LoRa devices](#pi-lora-device-with-rn2483) send data packets to a [LoRa gateway](#pi-lora-gateway), using LoRa long range radio.
 
-The LoRa gateway forwards received data packets to The Things Network (TTN), a LoRa cloud backend.
+The LoRa gateway forwards received data packets to The Things Network (TTN), a [LoRa cloud backend](#configure-the-ttn-backend).
 
 Any Internet-connected computer, e.g. a Pi or laptop, can get the data from the backend, if the [client](#python-ttn-client) is authorised.
 
