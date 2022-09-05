@@ -186,7 +186,7 @@ $ sudo rm /lib/systemd/system/rn2483.service
 ```
 
 ## Build an enclosure
-E.g. using an [AP9 junction box](https://new.abb.com/products/2TKA140012G1/ap9) and [this laser-cut fixture](./pi-lora-ap9-adapter.svg):
+E.g. using an [AP9 junction box](https://new.abb.com/products/2TKA140012G1/ap9) and [this laser-cut adapter](./pi-lora-ap9-adapter.svg):
 
 <img src="https://live.staticflickr.com/65535/52324509543_bd385607d1_b.jpg" width="540"/>
 
@@ -229,7 +229,7 @@ Done! (The remaining steps are for setup from scratch.)
 * https://shop.imst.de/wireless-modules/accessories/19/sma-antenna-for-ic880a-spi-wsa01-im880b-and-lite-gateway (Antenna)
 
 ## Build an enclosure
-* E.g. https://www.thingiverse.com/thing:1665467
+E.g. an [AP10 junction box](https://new.abb.com/products/2TKA140002G1/ap10) and this [laser-cut adapter](https://www.thingiverse.com/thing:1665467).
 
 ## Enable SPI
     $ sudo raspi-config # enable SPI
