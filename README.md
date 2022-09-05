@@ -208,12 +208,18 @@ See TTN console.
 That's it, data packets sent from your Pi LoRa device are now received by the client.
 
 # Pi LoRa Gateway
-> Note: This section is for LoRaWAN gateways only
+To run the Pi LoRa gateway set up a Wi-Fi network with matching SSID and password.
+
+Then plug in the Pi LoRa gateway and put the antenna in an upright position.
+
+Make sure to chose an elevated location to reach maximum range.
+
+> Note: This section is for LoRaWAN gateway setup
 
 ## Enable SPI
     $ sudo raspi-config # enable SPI
 
-## Setup ttn-gateway
+## Setup TTN gateway
     $ git clone https://github.com/ttn-zh/ic880a-gateway.git ~/ic880a-gateway
     $ cd ~/ic880a-gateway
     $ sudo ./install.sh spi
