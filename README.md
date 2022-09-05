@@ -186,7 +186,7 @@ $ sudo rm /lib/systemd/system/rn2483.service
 ```
 
 ## Build an enclosure
-E.g. using an [AP9 junction box](https://new.abb.com/products/2TKA140012G1/ap9) and [this laser-cut adapter](./pi-lora-ap9-adapter.svg):
+E.g. using an [AP9 junction box](https://new.abb.com/products/2TKA140012G1/ap9) and this [laser-cut adapter](./pi-lora-ap9-adapter.svg):
 
 <img src="https://live.staticflickr.com/65535/52324509543_bd385607d1_b.jpg" width="540"/>
 
