@@ -6,13 +6,13 @@ Initiated by Michel of [Lug Limbe](https://sokolo.cronopios.org/) ([Map](https:/
 ## Overview
 <img src="overview.png" width="640" />
 
-One or more [Pi LoRa devices](#pi-with-rn2483) send data packets to a LoRa gateway, using LoRa long range radio.
+One or more [Pi LoRa devices](#pi-lora-device-with-rn2483) send data packets to a [LoRa gateway](#lora-gateway), using LoRa long range radio.
 
 The LoRa gateway forwards received data packets to The Things Network (TTN), a LoRa cloud backend.
 
 Any Internet-connected computer, e.g. a Pi or laptop, can get the data from the backend, if the client is authorised.
 
-# Pi with RN2483
+# Pi LoRa device with RN2483
 We use a Pi with a RN2483 LoRa module as our LoRaWAN device.
 
 ## Wire the RN2483
@@ -183,18 +183,6 @@ $ sudo rm /etc/systemd/system/multi-user.target.wants/rn2483.service
 $ sudo rm /lib/systemd/system/rn2483.service
 ```
 
-# Command line TTN MQTT client
-This command line program can run on a Pi or any other computer.
-
-## Install npm
-    $ sudo apt-get install npm
-## Install mqtt
-    $ sudo npm install mqtt -g # adds tool to path
-## Subscribe to data from TTN backend with CLI
-    $ mqtt sub -t "v3/<AppID>@ttn/devices/<DevID>/up"\
-    -h "eu1.cloud.thethings.network" -u "<AppID>@ttn"\
-    -P "<ApiKey>" # see TTN console
-
 # Python TTN MQTT client
 This Python program can run on a Pi or any other computer.
 
@@ -217,7 +205,9 @@ See TTN console.
 ## Run code
     $ python3 ttn-client
 
-# Gateway
+That's it, data packets sent from your Pi LoRa device are now received by the client.
+
+# Pi LoRa Gateway
 > Note: This section is for LoRaWAN gateways only
 
 ## Enable SPI
