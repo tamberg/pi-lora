@@ -55,12 +55,12 @@ This section shows the steps to configure the TheThingsNetwork (TTN) backend.
 ### Open the TTN console
 - https://eu1.cloud.thethings.network/console/
 
-### Create an application
+### Create application
 An application is needed per type of LoRaWAN device you want to connect, e.g. temperature sensor devices.
 
 - Create App
 
-### Register a device
+### Register device
 A separate device is needed for each physical LoRaWAN device you want to connect, e.g. sensor-1 and sensor-2.
 
 - End devices
@@ -185,7 +185,7 @@ $ sudo rm /etc/systemd/system/multi-user.target.wants/rn2483.service
 $ sudo rm /lib/systemd/system/rn2483.service
 ```
 
-## Build an enclosure
+## Build enclosure
 E.g. using an [AP9 junction box](https://new.abb.com/products/2TKA140012G1/ap9) and this [laser-cut adapter](./pi-lora-ap9-adapter.svg):
 
 <img src="https://live.staticflickr.com/65535/52324509543_bd385607d1_b.jpg" width="540"/>
@@ -228,7 +228,7 @@ Done! (The remaining steps are for setup from scratch.)
 * https://shop.imst.de/wireless-modules/accessories/20/u.fl-to-sma-pigtail-cable-for-ic880a-spi (Cable)
 * https://shop.imst.de/wireless-modules/accessories/19/sma-antenna-for-ic880a-spi-wsa01-im880b-and-lite-gateway (Antenna)
 
-## Build an enclosure
+## Build enclosure
 E.g. an [AP10 junction box](https://new.abb.com/products/2TKA140002G1/ap10) and this [laser-cut adapter](https://www.thingiverse.com/thing:1665467).
 
 ## Enable SPI
