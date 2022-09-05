@@ -136,6 +136,8 @@ ok
 mac_tx_ok
 ```
 
+Check the [TTN console](https://eu1.cloud.thethings.network/console/) to see data packets sent by your device.
+
 ## Install service
 Install a service to run _rn2483.py_ whenever the Pi is plugged in.
 
@@ -183,6 +185,11 @@ $ sudo rm /etc/systemd/system/multi-user.target.wants/rn2483.service
 $ sudo rm /lib/systemd/system/rn2483.service
 ```
 
+## Build an enclosure
+* e.g. using an AP9 box and [this laser-cut fixture]():
+
+<img src="https://live.staticflickr.com/65535/52324509543_bd385607d1_b.jpg" width="540"/>
+
 # Python TTN client
 This Python program can run on a Pi or any other computer.
 
@@ -221,7 +228,7 @@ Done! (The remaining steps are for setup from scratch.)
 * https://shop.imst.de/wireless-modules/accessories/20/u.fl-to-sma-pigtail-cable-for-ic880a-spi (Cable)
 * https://shop.imst.de/wireless-modules/accessories/19/sma-antenna-for-ic880a-spi-wsa01-im880b-and-lite-gateway (Antenna)
 
-## Make an enclosure
+## Build an enclosure
 * E.g. https://www.thingiverse.com/thing:1665467
 
 ## Enable SPI
