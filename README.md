@@ -205,7 +205,7 @@ See TTN console.
 ## Run code
     $ python3 ttn-client
 
-That's it, data packets sent from your Pi LoRa device are now received by the client.
+That's it! Data packets sent from your [Pi LoRa device](#pi-lora-device-with-rn2483) are now received by the client.
 
 # Pi LoRa Gateway
 To run the Pi LoRa gateway, set up a Wi-Fi network with matching SSID and password.
