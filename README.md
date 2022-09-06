@@ -195,6 +195,8 @@ E.g. a PIR sensor, use [pir.py](./pir.py) to test it, then try to run [rn2483-pi
 
 Create a AP9 cover matching the sensor, e.g. this [laser-cut cover](./ap9-cover-pir.svg).
 
+<img src="https://live.staticflickr.com/65535/52338458461_8b6c7e0165_b.jpg" width="540"/>
+
 # Python TTN client
 This Python program can run on a Pi or any other computer.
 
