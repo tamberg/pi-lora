@@ -16,7 +16,7 @@ The [client computer](#python-ttn-client), an Internet-connected Pi or laptop, c
 We use a Pi with a RN2483 LoRa module as our LoRaWAN device.
 
 ## Get RN2483 hardware
-* https://www.tindie.com/products/drazzy/lorawan-rn2483rn2903-breakout-board-assembled/
+* https://www.tindie.com/products/drazzy/lorawan-rn2483rn2903-breakout-board-assembled/ (RN2483)
 * https://www.adafruit.com/product/1858 (Antenna)
 
 ## Wire the RN2483
