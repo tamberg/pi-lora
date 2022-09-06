@@ -1,12 +1,12 @@
 # PIR sensor test
+# $ pip3 install gpiozero
 
-import wiringpi
 import time
+from gpiozero import MotionSensor
 
-wiringpi.wiringPiSetupGpio()
-wiringpi.pinMode(21, 0) # Use pin as INPUT
+pir = MotionSensor(22)
 
 while True:
-    value = wiringpi.digitalRead(21)
-    print(value)
+    print(pir.motion_detected)
     time.sleep(0.5) # s
+
