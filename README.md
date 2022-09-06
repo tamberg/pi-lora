@@ -13,7 +13,7 @@ The LoRa gateway forwards received data packets to The Things Network (TTN), a [
 The [client computer](#python-ttn-client), an Internet-connected Pi or laptop, can get the data from the backend, if it is authorised.
 
 # Pi LoRa device with RN2483
-We use a Pi with a RN2483 LoRa module as our LoRaWAN device.
+We use a Pi with a [RN2483 LoRa module](https://www.tindie.com/products/drazzy/lorawan-rn2483rn2903-breakout-board-assembled/) as our LoRaWAN device.
 
 ## Wire the RN2483
 Based on https://pinout.xyz/pinout/uart
