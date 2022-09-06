@@ -1,0 +1,14 @@
+[Unit]
+Description=RN2483 Pi LoRa service
+Requires=dev-serial0.device
+After=dev-serial0.device
+
+[Service]
+User=pi
+WorkingDirectory=/home/pi
+ExecStart=/usr/bin/python3 rn2483.py
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
+
