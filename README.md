@@ -10,7 +10,7 @@ One or more [Pi LoRa devices](#pi-lora-device-with-rn2483) send data packets to 
 
 The LoRa gateway forwards received data packets to The Things Network (TTN), a [LoRa cloud backend](#configure-the-ttn-backend).
 
-Any Internet-connected computer, e.g. a Pi or laptop, can get the data from the backend, if the [client](#python-ttn-client) is authorised.
+The [client computer](#python-ttn-client), an Internet-connected Pi or laptop, can get the data from the backend, if it is authorised.
 
 # Pi LoRa device with RN2483
 We use a Pi with a RN2483 LoRa module as our LoRaWAN device.
@@ -170,7 +170,7 @@ $ sudo systemctl start rn2483.service
 
 ### Check service
 ```
-$ ps aux | grep rn2483.py
+$ ps aux | grep rn2483
 pi         295  0.4  1.5  14372  6848 ?        Ss   09:07   0:04 /usr/bin/python3 rn2483.py
 ```
 
