@@ -186,14 +186,14 @@ $ sudo rm /lib/systemd/system/rn2483.service
 ```
 
 ## Build enclosure
-E.g. using an [AP9 junction box](https://new.abb.com/products/2TKA140012G1/ap9) and this [laser-cut adapter](./pi-lora-ap9-adapter.svg):
+E.g. using an [AP9 junction box](https://new.abb.com/products/2TKA140012G1/ap9) and this [laser-cut adapter](./ap9-adapter.svg):
 
 <img src="https://live.staticflickr.com/65535/52324509543_bd385607d1_b.jpg" width="540"/>
 
 ## Add a sensor
 E.g. a PIR sensor, use [pir.py](./pir.py) to test it, then try to run [rn2483-pir.py](./rn2483-pir.py).
 
-Create a AP9 cover matching the sensor, e.g. this [laser-cut cover](./pi-lora-ap9-cover-pir.svg).
+Create a AP9 cover matching the sensor, e.g. this [laser-cut cover](./ap9-cover-pir.svg).
 
 # Python TTN client
 This Python program can run on a Pi or any other computer.
