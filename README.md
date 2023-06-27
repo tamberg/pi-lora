@@ -16,7 +16,7 @@ The [client computer](#python-ttn-client), an Internet-connected Pi or laptop, c
 We use a Pi with a RN2483 LoRa module as our LoRaWAN device.
 
 ## Set up the Raspberry Pi
-Create an SD Card with [Pi Imager](https://www.raspberrypi.com/software/)
+Create an SD Card with [Pi Imager](https://www.raspberrypi.com/software/).
 - Choose Pi OS Lite, 32-bit
 - Create a User, e.g. pi
 - Set Wi-Fi SSID, PW
