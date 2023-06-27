@@ -218,7 +218,7 @@ See TTN console.
     $ nano ttn-client.py
     TTN_APP_ID = "..." # TODO, e.g. pi-lora-app
     TTN_DEVICE_ID = "..." # TODO, e.g. pi-lora-device
-    TTN_APP_API_KEY = "..." # TODO, see TTN console API Keys
+    TTN_APP_API_KEY = "..." # TODO, see Integrations > MQTT
 
 ## Run code
     $ python3 ttn-client
