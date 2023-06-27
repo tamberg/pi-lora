@@ -18,7 +18,7 @@ We use a Pi with a RN2483 LoRa module as our LoRaWAN device.
 ## Set up the Raspberry Pi
 Create an SD Card with [Pi Imager](https://www.raspberrypi.com/software/).
 - Choose Pi OS Lite, 32-bit
-- Create a User, e.g. pi
+- Create a user, e.g. pi
 - Set Wi-Fi SSID, PW
 - Enable SSH
 
