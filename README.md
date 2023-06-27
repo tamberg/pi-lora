@@ -15,6 +15,13 @@ The [client computer](#python-ttn-client), an Internet-connected Pi or laptop, c
 # Pi LoRa device with RN2483
 We use a Pi with a RN2483 LoRa module as our LoRaWAN device.
 
+## Basic Pi Zero W setup
+- Create an SD Card with [Pi Imager](https://www.raspberrypi.com/software/)
+- Choose Pi OS Lite, 32-bit
+- Create a User, e.g. pi
+- Set Wi-Fi SSID, PW
+- Enable SSH
+
 ## Get RN2483 hardware
 * https://www.tindie.com/products/drazzy/lorawan-rn2483rn2903-breakout-board-assembled/ (RN2483)
 * https://www.adafruit.com/product/1858 (Antenna)
