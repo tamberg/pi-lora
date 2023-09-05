@@ -195,7 +195,10 @@ $ sudo systemctl stop rn2483.service
 $ sudo rm /etc/systemd/system/multi-user.target.wants/rn2483.service
 $ sudo rm /lib/systemd/system/rn2483.service
 ```
-
+### Show service log (optional)
+```
+$ journalctl -u rn2483.service
+```
 ## Build enclosure
 E.g. using an [AP9 junction box](https://new.abb.com/products/2TKA140012G1/ap9) and this [laser-cut adapter](./ap9-adapter.svg):
 
