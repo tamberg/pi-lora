@@ -240,7 +240,7 @@ To run the Pi LoRa gateway, set up a Wi-Fi network with matching SSID and passwo
 
 Then plug in the Pi LoRa gateway and put the antenna in an upright position.
 
-Make sure to chose an elevated location to reach maximum range.
+Make sure to choose an elevated location to reach maximum range.
 
 Done! (The remaining steps are for setup from scratch.)
 
